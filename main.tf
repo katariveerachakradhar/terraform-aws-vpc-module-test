@@ -1,4 +1,7 @@
-module "vpc" {
+#VPC-MODULE
+-----------
+module "vpc" 
+{
     source = "github.com/katariveerachakradhar/terraform-aws-vpc.git?ref=main"
     /* project = "roboshop"
     environment = "dev"
